@@ -16,9 +16,12 @@ $(document).ready(function(){
     var Wins = 0;
     var Losses = 0;
 
-    $("#yourWinner").text(winner);
-    $("#youLoser").text(losser);
+    // Supposed to control wins and losses, but could not get this to work
+    //$("#yourWinner").text(winner);
+    //$("#youLoser").text(losser);
   
+
+  // Supposed to reset the game after you win or lose. Could not get to work. 
   // Resetting
   function reset() {
 
