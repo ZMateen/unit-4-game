@@ -13,6 +13,11 @@ $(document).ready(function(){
     
     // Player's score
     var yourScore = 0;
+    var Wins = 0;
+    var Losses = 0;
+
+    $("#yourWinner").text(winner);
+    $("#youLoser").text(losser);
   
   // Resetting
   function reset() {
@@ -55,7 +60,7 @@ $(document).ready(function(){
 
       yourScore = yourScore + num1;
       console.log("New yourScore= " + yourScore);
-      $("#targetScore").text(yourScore); 
+      $("#numberScore").text(yourScore); 
 
 
         //Win & lose if/else
@@ -72,7 +77,7 @@ $(document).ready(function(){
 
       yourScore = yourScore + num2;
       console.log("New yourScore= " + yourScore);
-      $("#targetScore").text(yourScore); 
+      $("#numberScore").text(yourScore); 
 
           if (yourScore == random) {
             yay();
@@ -87,7 +92,7 @@ $(document).ready(function(){
 
       yourScore = yourScore + num3;
       console.log("New yourScore= " + yourScore);
-      $("#targetScore").text(yourScore);
+      $("#numberScore").text(yourScore);
   
             if (yourScore == random) {
             yay();
@@ -101,7 +106,7 @@ $(document).ready(function(){
     $("#four").on ("click", function() {
       yourScore = yourScore + num4;
       console.log("New yourScore= " + yourScore);
-      $("#targetScore").text(yourScore); 
+      $("#numberScore").text(yourScore); 
         
             if (yourScore == random) {
             yay();

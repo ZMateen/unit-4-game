@@ -1,22 +1,39 @@
 body {
-    background: url("assets/images/Space Gems Background.png"); 
+    background: url("../images/Space Gems Background.png"); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 h1 {
    text-align: center;
+   color: white;
 }
 
 h2 {
     text-align: center;
+    color: white;
 }
 
 p {
     text-align: center;
+    color: white;
 }
 
 h3 {
     text-align: center;
+    color: white;
 } 
+
+h4 {
+    text-align: left;
+    color: white;
+}
+
+h5 {
+    text-align: right;
+    color: white;
+}
 
 .gems {
     margin-left: 380px;
